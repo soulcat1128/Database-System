@@ -3,7 +3,7 @@ from datetime import datetime
 
 # 連線 SQL
 def connect():                                                             
-    db = pymysql.connect(host='localhost', port=3306, user='root', passwd='xu.6j03cj86u;6au/65k6', db='world')
+    db = pymysql.connect(host='localhost', port=3306, user='root', passwd='gky1128', db='test')
     return db
 
 # 斷線 沒用到  因為可以直接 db.close()
